@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F1B949C1-E6E9-4D3D-B75E-9ABF97A523BF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>LCBKnowApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2D1347C1B1FF56865D5F6DB8444B637C1707F083</key>
 		<string>https://github.com/yungdai/LCBKnowApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LCBKnowApp.xcodeproj/project.xcworkspace</string>
+	<string>LCBKnowApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2D1347C1B1FF56865D5F6DB8444B637C1707F083</key>
