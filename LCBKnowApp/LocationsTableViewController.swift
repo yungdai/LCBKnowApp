@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Alamofire
+
 
 class LocationsTableViewController: UITableViewController {
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
     override func viewDidLoad() {
@@ -24,6 +27,12 @@ class LocationsTableViewController: UITableViewController {
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
+        Alamofire.request(.GET, "https://lcboapi.com/stores", parameters: ["access_key":"MDo2MWVlMzdlNC0wMjBmLTExZTUtOTQ3NC01YjBjOTFiMWU2MzM6VzhIcjRCVDVQOVlwR0h6Nmx2bGRhVktwcjNjNGJtYkUyVDR3"]).responseJSON() {
+            (_, _, data, _) in
+            println(data)
+        }
+    
 
     }
 
