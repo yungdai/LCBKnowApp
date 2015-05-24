@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1A0E3B961B11047E001EADA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3B951B11047E001EADA8 /* AppDelegate.swift */; };
-		1A0E3B981B11047E001EADA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3B971B11047E001EADA8 /* ViewController.swift */; };
+		1A0E3B981B11047E001EADA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3B971B11047E001EADA8 /* MainViewController.swift */; };
 		1A0E3B9B1B11047E001EADA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E3B991B11047E001EADA8 /* Main.storyboard */; };
 		1A0E3B9D1B11047E001EADA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E3B9C1B11047E001EADA8 /* Images.xcassets */; };
 		1A0E3BA01B11047E001EADA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E3B9E1B11047E001EADA8 /* LaunchScreen.xib */; };
 		1A0E3BAC1B11047E001EADA8 /* LCBKnowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3BAB1B11047E001EADA8 /* LCBKnowAppTests.swift */; };
+		1A0E3BB61B11052B001EADA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0E3BB51B11052B001EADA8 /* MapKit.framework */; };
+		1A0E3BBD1B1105F0001EADA8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3BBC1B1105F0001EADA8 /* SWRevealViewController.m */; };
+		1A0E3BBF1B111316001EADA8 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3BBE1B111316001EADA8 /* LocationsTableViewController.swift */; };
+		1A0E3BC11B113C15001EADA8 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E3BC01B113C15001EADA8 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,19 @@
 		1A0E3B901B11047E001EADA8 /* LCBKnowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCBKnowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E3B941B11047E001EADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0E3B951B11047E001EADA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A0E3B971B11047E001EADA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A0E3B971B11047E001EADA8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1A0E3B9A1B11047E001EADA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A0E3B9C1B11047E001EADA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A0E3B9F1B11047E001EADA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A0E3BA51B11047E001EADA8 /* LCBKnowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCBKnowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E3BAA1B11047E001EADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0E3BAB1B11047E001EADA8 /* LCBKnowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCBKnowAppTests.swift; sourceTree = "<group>"; };
+		1A0E3BB51B11052B001EADA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1A0E3BBA1B1105EF001EADA8 /* LCBKnowApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCBKnowApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A0E3BBB1B1105F0001EADA8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1A0E3BBC1B1105F0001EADA8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1A0E3BBE1B111316001EADA8 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		1A0E3BC01B113C15001EADA8 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0E3BB61B11052B001EADA8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,7 @@
 		1A0E3B871B11047E001EADA8 = {
 			isa = PBXGroup;
 			children = (
+				1A0E3BB51B11052B001EADA8 /* MapKit.framework */,
 				1A0E3B921B11047E001EADA8 /* LCBKnowApp */,
 				1A0E3BA81B11047E001EADA8 /* LCBKnowAppTests */,
 				1A0E3B911B11047E001EADA8 /* Products */,
@@ -77,8 +89,9 @@
 		1A0E3B921B11047E001EADA8 /* LCBKnowApp */ = {
 			isa = PBXGroup;
 			children = (
+				1A0E3BB81B110549001EADA8 /* Controllers */,
+				1A0E3BB71B11053D001EADA8 /* Models */,
 				1A0E3B951B11047E001EADA8 /* AppDelegate.swift */,
-				1A0E3B971B11047E001EADA8 /* ViewController.swift */,
 				1A0E3B991B11047E001EADA8 /* Main.storyboard */,
 				1A0E3B9C1B11047E001EADA8 /* Images.xcassets */,
 				1A0E3B9E1B11047E001EADA8 /* LaunchScreen.xib */,
@@ -110,6 +123,35 @@
 				1A0E3BAA1B11047E001EADA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A0E3BB71B11053D001EADA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1A0E3BB81B110549001EADA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A0E3BC01B113C15001EADA8 /* MenuController.swift */,
+				1A0E3BBE1B111316001EADA8 /* LocationsTableViewController.swift */,
+				1A0E3BB91B1105D4001EADA8 /* SWRevealViewController */,
+				1A0E3B971B11047E001EADA8 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1A0E3BB91B1105D4001EADA8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A0E3BBB1B1105F0001EADA8 /* SWRevealViewController.h */,
+				1A0E3BBC1B1105F0001EADA8 /* SWRevealViewController.m */,
+				1A0E3BBA1B1105EF001EADA8 /* LCBKnowApp-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0E3B981B11047E001EADA8 /* ViewController.swift in Sources */,
+				1A0E3BC11B113C15001EADA8 /* MenuController.swift in Sources */,
+				1A0E3BBF1B111316001EADA8 /* LocationsTableViewController.swift in Sources */,
+				1A0E3B981B11047E001EADA8 /* MainViewController.swift in Sources */,
 				1A0E3B961B11047E001EADA8 /* AppDelegate.swift in Sources */,
+				1A0E3BBD1B1105F0001EADA8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +387,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LCBKnowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCBKnowApp/LCBKnowApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +400,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LCBKnowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCBKnowApp/LCBKnowApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
