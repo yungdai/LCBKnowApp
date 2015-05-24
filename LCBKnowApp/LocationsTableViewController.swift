@@ -30,7 +30,7 @@ class LocationsTableViewController: UITableViewController {
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         
-        Alamofire.request(.GET, "https://lcboapi.com/stores/", parameters: ["access_key":access_key]).responseJSON() {
+        Alamofire.request(.GET, "https://lcboapi.com/stores/", parameters: ["access_key":access_key, "per_page": 100]).responseJSON() {
             (_, _, data, _) in
             println(data)
             
